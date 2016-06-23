@@ -4,41 +4,50 @@
 <head>
     <title>Intro to responsive design</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 </head>
 
 <body>
     <div id="container">
-    <div class="row">
-        <div class="col-12" id="masthead">
-            <h1>Sample Site</h1>
+        <div class="row">
+            <div class="col-12" id="masthead">
+                <h1>Sample Site</h1>
+            </div>
+
         </div>
 
-    </div>
 
 
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-8">
+                <div class="row">
+                    <!-- The contents of each row must add up to 12 -->
+                    <div class="col-2 button"><a href="#">Button</a></div>
+                    <div class="col-1">&nbsp;</div>
+                    <div class="col-2 button"><a href="#">Button</a></div>
+                    <div class="col-1">&nbsp;</div>
+                    <div class="col-2 button"><a href="#">Button</a></div>
+                    <div class="col-1">&nbsp;</div>
+                    <div class="col-2 button"><a href="#">Button</a></div>
+                    <div class="col-1">&nbsp;</div>
+                </div>
 
-    <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6">
-            <div class="col-3 button"><a href="#">Button</a></div>
-            <div class="col-3 button"><a href="#">Button</a></div>
-            <div class="col-3 button"><a href="#">Button</a></div>
-            <div class="col-3 button"><a href="#">Button</a></div>
+            </div>
+
         </div>
 
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"><img src="images/rambo3.jpg" /></div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"><img src="images/rambo5.jpg" /></div>
+            <div class="col-4"> </div>
+            <div class="col-4"><img src="images/rambo2.jpg" style="margin-top:5em;" /></div>
+        </div>
     </div>
-
-    <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4"><img src="images/rambo3.jpg" /></div>
-        <div class="col-4"></div>
-    </div>
-    <div class="row">
-        <div class="col-4"><img src="images/rambo5.jpg" /></div>
-        <div class="col-4"> </div>
-        <div class="col-4"><img src="images/rambo2.jpg" style="margin-top:5em;" /></div>
-    </div>
-</div>
 
 </body>
 
